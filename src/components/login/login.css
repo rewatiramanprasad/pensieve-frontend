@@ -1,0 +1,109 @@
+*{
+background-color:Black;
+/* color: red; */
+font-size: 20px;
+color:grey;
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    padding: 90px 0 90px 0;
+    /* color:green; */
+    
+}
+.sub-main{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 35%;
+    /* box-shadow: 11px 12px 13px 12 px rgb(207, 207, 207) ; */
+    padding-top: 30px;
+    border-radius:60px;
+    background-color:black ;
+    border-color:#28282B;
+    border-style: solid;
+    border-width: medium;
+
+}
+/* .userBox{} */
+
+.loginInput{
+    /* border-color: orangered; */
+    border-radius: 60px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    border:none;
+    outline: none;
+    border-width:0px;
+    background-color:#28282B	;
+    padding-left: 20px;
+    cursor: pointer;
+    color: grey;
+    
+}
+
+.button{
+    width: 380px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: orangered;
+    font-weight:bold;
+    color:black;
+}
+table{
+    
+    padding-top: 10px;
+    border-spacing: 45px;
+    padding: 30px;
+    /* border: 2px solid; */
+    text-align: center;
+
+}
+.tr{
+    /* display: flex; */
+    /* border: 2px solid; */
+    padding-bottom :10px;
+    /* border-width: 5px; */
+    border-spacing: 10px;
+    /* border: none; */
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.link{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.loginInput:hover{
+    border:3px solid orangered;
+    
+}
+.pass-wrapper {
+    position: relative;
+    display: flex;
+    margin-bottom: 14px;
+    margin-left: 28px;
+    /* margin:0px; */
+    /* padding:0px; */
+    
+  }
+.logini{
+    position:absolute;
+    top: 11%;
+    right: 16%;
+    background-color: #28282B;
+    color:grey;
+  }
+.logini:hover {
+    color: orangered;
+    cursor: pointer;
+    
+  }
+.textLink{
+    text-decoration: none;
+    color: grey;
+}

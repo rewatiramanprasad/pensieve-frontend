@@ -1,0 +1,113 @@
+*{
+    background-color:Black;
+    /* color: red; */
+    font-size: 20px;
+    color:grey;
+    }
+    .signupmain{
+        text-align: center;
+        justify-content: center;
+        display:flex;
+        padding: 90px 0 90px 0;
+        color:green;
+        
+    }
+    .signupsub-main{
+        display: flex;
+        justify-content: center;
+        height: 550px;
+        width: 65%;
+        /* box-shadow: 11px 12px 13px 12 px rgb(207, 207, 207) ; */
+        padding-top: 30px;
+        padding-bottom:10px;
+        border-radius:60px;
+        background-color:black ;
+        border-color:#28282B;
+        border-style: solid;
+        border-width: medium;
+    
+    }
+    /* .userBox{} */
+    
+    .signupInput{
+        /* border-color: orangered; */
+        border-radius: 60px;
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        border:none;
+        outline: none;
+        border-width:0px;
+        background-color:#28282B	;
+        padding-left: 20px;
+        cursor: pointer;
+        color: grey;
+        
+    }
+    
+    .signupbutton{
+        width: 380px;
+        height: 50px;
+        border-radius: 60px;
+        background-color: orangered;
+        font-weight:bold;
+        color:black;
+    }
+    .signupbutton:hover{
+        background-color: red;
+    }
+    .signuptable{
+        /* border-color: red; */
+        padding-top: 20px;
+        /* border: 1px solid; */
+        border-spacing: 45px;
+        padding: 50px;
+        margin: 40px;
+    
+    }
+    .signuptr{
+        
+        border-color: red;
+        padding-bottom :10px;
+        /* border-width: 5px; */
+        border-spacing: 10px;
+        /* border: 1px solid; */
+        
+    }
+    .link{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .signupInput:hover{
+        border:3px solid orangered;
+        
+    }
+    .signuppass-wrapper {
+        position: relative;
+        display: flex;
+        /* margin-bottom: 12px; */
+        margin-left: 20px;
+        
+        /* margin:0px; */
+        /* padding:0px; */
+        
+        
+      }
+    .signupi{
+        position:absolute;
+        top: 3%;
+        right: 20%;
+        background-color: #28282B;
+        color:grey;
+      }
+    .signupi:hover {
+        color: orangered;
+        cursor: pointer;
+        
+      }
+      p{
+        font-size: 12px;
+        text-align: left;
+        color:red;
+        padding-left:47px;
+      }

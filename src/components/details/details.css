@@ -1,0 +1,48 @@
+*{
+    margin-top: 20px;
+}
+.box{
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 400px;
+    width: 40%;
+    padding-top: 20px; 
+
+}
+
+.detailMain{
+border: 2px solid grey;
+border-radius: 30px;
+height: 700px;
+width: 80%;
+
+display:flex;
+justify-content: center;
+padding: 90px 0 90px 0;
+}
+.straight{
+    border-left:2px solid grey;
+    height:auto;
+}
+li{
+    color:orangered;
+}
+.para{
+    color:grey;
+}
+.header{
+    padding-left: 80px;
+}
+.nestedPara{
+    list-style-type: none;
+    padding-left: 20px;
+    color:grey;
+
+}
+.chart{
+    padding:10px;
+    margin: 10px;
+}
+.tableBox{
+    border-radius: 50px;
+}
